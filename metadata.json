@@ -1,0 +1,5 @@
+{
+  "name": "PixelCraft 2D",
+  "description": "A robust 2D block-based sandbox game with procedural world generation, mining, building, and AI-powered world lore using Gemini.",
+  "requestFramePermissions": []
+}

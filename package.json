@@ -1,0 +1,28 @@
+
+{
+  "name": "pixelcraft-2d",
+  "version": "1.0.0",
+  "description": "Desktop version of PixelCraft 2D",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:exe": "electron-builder build --win --x64"
+  },
+  "author": "PixelCraft Team",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.pixelcraft.game",
+    "productName": "PixelCraft 2D",
+    "win": {
+      "target": "portable",
+      "icon": "icon.png"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  }
+}
